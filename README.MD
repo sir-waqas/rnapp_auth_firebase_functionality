@@ -7,3 +7,8 @@
 7. Init Firebase in a Lifecycle method and test the app if everything is working fine
 8. Create LoginForm.js in the root of components; Not in the common dir -- This will contain our custom controls to create the Login Form UI
 9. Import the LoginForm.js in the App.js component so that Index Root of the App can call App.js containing the LoginForm.js
+10. Create an Input Custom Control with all the required props in order to customize the control based on our requirements
+
+<!-- Change a Repo -->
+
+git remote set-url origin new.git.url/here

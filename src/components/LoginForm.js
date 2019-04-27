@@ -17,6 +17,7 @@ class LoginForm extends Component {
             style={{ height: 20, width: 100 }}
           /> */}
           <Input
+            autoCorrect
             placeholder="user@email.com"
             label="Email: "
             value={this.state.email}
@@ -35,7 +36,7 @@ class LoginForm extends Component {
         </CardSection>
         {/* For the Login Button */}
         <CardSection>
-          <CustomButton>Log In</CustomButton>
+          <CustomButton>Sign In</CustomButton>
         </CardSection>
       </Card>
     );
